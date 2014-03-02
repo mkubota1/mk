@@ -1,5 +1,5 @@
 #box {
-    height: 200px;
+    height: 400px;
     width: 300px;
     border: 6px solid black;
     border-radius: 12px;
@@ -12,8 +12,14 @@
     text-align: center;
 }
 #middleText {
-    color: black;
+    color: green;
     font-size: 18px;
     font-family: Impact;
+    text-align: center;
+}
+.clock {
+    color: black;
+    font-size: 16px;
+    font-family: sans-serif;
     text-align: center;
 }

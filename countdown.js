@@ -1,11 +1,12 @@
 // set the date we're counting down to
-var target_date = new Date("Mar 3, 2014").getTime();
+var target_date = new Date("Mar 10, 2014").getTime();
  
 // variables for time units
 var days, hours, minutes, seconds;
  
 // get tag element
-var countdown = document.getElementById("countdown");
+// var countdown = document.getElementById("countdown");
+// (above not necessary?)
  
 // update the tag with id "countdown" every 1 second
 setInterval(function () {
@@ -23,9 +24,24 @@ setInterval(function () {
      
     minutes = parseInt(seconds_left / 60);
     seconds = parseInt(seconds_left % 60);
-     
+    
+    /*
+    function pad(num, size) {
+        var s = num+"";
+        while (s.length < size) s = "0" + s;
+        return s;
+    }
+    pad(seconds,2);
+    */
+    
     // format countdown string + set tag value
-    countdown.innerHTML = days + "d, " + hours + "h, "
-    + minutes + "m, " + seconds + "s";  
+    
+    // (original code)
+    //countdown.innerHTML = days + "d, " + hours + "h, "
+    //+ minutes + "m, " + seconds + "s";  
+    
+    
+    document.getElementById("countdown").innerHTML = days + " days,\
+    " + hours + " hrs, " + minutes + " min, " + seconds + "sec";  
  
 }, 1000);
