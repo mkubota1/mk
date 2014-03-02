@@ -1,6 +1,19 @@
-#top {
+#box {
+    height: 200px;
+    width: 300px;
+    border: 6px solid black;
+    border-radius: 12px;
+}
+#topText {
     color: green;
-    font-size: 48px;
-    font-family: Tahoma;
+    font-size: 36px;
+    font-family: Impact;
     font-style: bold;
+    text-align: center;
+}
+#middleText {
+    color: black;
+    font-size: 18px;
+    font-family: Impact;
+    text-align: center;
 }
