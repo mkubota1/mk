@@ -1,25 +1,34 @@
-#box {
-    height: 400px;
-    width: 300px;
-    border: 6px solid black;
-    border-radius: 12px;
+table {
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #97E8AA;
+    border-spacing: 0;
+    border-collapse: separate;
 }
-#topText {
+
+tr:nth-child(2) {
     color: green;
     font-size: 36px;
     font-family: Impact;
     font-style: bold;
-    text-align: center;
+    line-height: 1px;
 }
-#middleText {
-    color: green;
-    font-size: 18px;
-    font-family: Impact;
-    text-align: center;
-}
-.clock {
+
+tr:nth-child(4) {
     color: black;
-    font-size: 16px;
+    font-size: 22px;
+    font-family: Impact;
+    line-height: 1px;
+}
+
+.clock {
+    color: white;
+    font-size: 18px;
     font-family: sans-serif;
     text-align: center;
+    font-weight: bold;
 }
