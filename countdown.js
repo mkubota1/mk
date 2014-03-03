@@ -5,7 +5,7 @@ var target_date = new Date("Mar 10, 2014").getTime();
 var days, hours, minutes, seconds;
  
 // get tag element
-// var countdown = document.getElementById("countdown");
+ var countdown = document.getElementById("countdown");
 // (above not necessary?)
  
 // update the tag with id "countdown" every 1 second
@@ -25,14 +25,14 @@ setInterval(function () {
     minutes = parseInt(seconds_left / 60);
     seconds = parseInt(seconds_left % 60);
     
-    /*
+
     function pad(num, size) {
         var s = num+"";
         while (s.length < size) s = "0" + s;
         return s;
     }
-    pad(seconds,2);
-    */
+
+
     
     // format countdown string + set tag value
     
@@ -40,8 +40,8 @@ setInterval(function () {
     //countdown.innerHTML = days + "d, " + hours + "h, "
     //+ minutes + "m, " + seconds + "s";  
     
+    //countdown.innerHTML = days + " days," + hours + " hrs, " + minutes + " min, " + seconds + "sec";  
     
-    document.getElementById("countdown").innerHTML = days + " days,\
-    " + hours + " hrs, " + minutes + " min, " + seconds + "sec";  
+    document.getElementById("countdown").innerHTML = days + " days - " + pad(hours,2) + ":" + pad(minutes,2) + ":" + pad(seconds,2);  
  
 }, 1000);
