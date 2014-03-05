@@ -1,4 +1,4 @@
-table {
+/*table {
     width: 500px;
     border: 2px solid black;
     border-radius: 8px;
@@ -8,25 +8,33 @@ table {
     background-color: #97E8AA;
     border-spacing: 0;
     border-collapse: separate;
+}*/
+
+#background {
+    height:500px;
+    width:500px;
+    background-image: url("http://assets.ordienetworks.com.s3.amazonaws.com/misc/jcvd_head.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
-tr:nth-child(2) {
-    color: green;
+#text1 {
+    color: white;
     font-size: 36px;
     font-family: Impact;
     font-style: bold;
     line-height: 1px;
 }
 
-tr:nth-child(4) {
-    color: black;
+#text2 {
+    color: white;
     font-size: 22px;
     font-family: Impact;
     line-height: 1px;
 }
 
 .clock {
-    color: black;
+    color: white;
     font-size: 18px;
     font-family: sans-serif;
     text-align: center;

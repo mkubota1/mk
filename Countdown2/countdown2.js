@@ -5,7 +5,7 @@ var target_date = new Date("Mar 10, 2014").getTime();
 var days, hours, minutes, seconds;
  
 // get tag element
- var countdown = document.getElementById("countdown");
+//var countdown = document.getElementById("countdown");
 // (above not necessary?)
  
 // update the tag with id "countdown" every 1 second
