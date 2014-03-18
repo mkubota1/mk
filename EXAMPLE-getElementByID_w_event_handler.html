@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title><!-- Insert your title here --></title>
+    <script language="javascript" type="text/javascript">
+       function processName()
+       {
+            var first;
+            var last;
+            first = document.getElementById('first').value;
+            last = document.getElementById('last').value;
+            
+            alert(first + " " + last);
+       }
+    </script>
+</head>
+<body>
+    <!-- Insert your content here -->
+    First: <input type="text" id="first"/>
+    <br/>
+    Last: <input type="text" id="last"/>
+    <input type="button" value="Press Me!" onclick="processName()"/>
+</body>
+</html>
