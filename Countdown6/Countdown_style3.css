@@ -1,0 +1,41 @@
+#background {
+    height:500px;
+    width:500px;
+    background-image: url("http://assets.ordienetworks.com.s3.amazonaws.com/misc/jcvd_head.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#words {
+    display: block;
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+
+#text1 {
+    color: white;
+    font-size: 36px;
+    font-family: Impact;
+    font-style: bold;
+}
+
+.clock {
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 275px;
+}
+
+#text2 {
+    color: white;
+    font-size: 22px;
+    font-family: Impact;
+    position: relative;
+    top: 260px;
+}
